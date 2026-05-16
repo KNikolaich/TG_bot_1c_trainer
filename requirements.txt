@@ -1,0 +1,9 @@
+aiogram>=3.7.0
+nest-asyncio>=1.6.0
+google-generativeai>=0.7.2
+requests>=2.32.3
+beautifulsoup4>=4.12.3
+lxml>=5.2.2
+scikit-learn>=1.5.1
+numpy>=1.26.4
+scipy>=1.13.1
