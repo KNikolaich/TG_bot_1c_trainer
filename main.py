@@ -29,7 +29,7 @@ import aiosqlite
 import nest_asyncio
 
 from openai import AsyncOpenAI
-
+from dotenv import load_dotenv
 from aiogram import Bot, Dispatcher, F
 from aiogram.enums import ParseMode
 from aiogram.client.default import DefaultBotProperties
@@ -49,6 +49,8 @@ from aiogram.fsm.storage.memory import MemoryStorage
 # ============================================================
 # LOGGING
 # ============================================================
+
+load_dotenv()
 
 for handler in logging.root.handlers[:]:
     logging.root.removeHandler(handler)

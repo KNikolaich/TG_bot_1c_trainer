@@ -7,3 +7,10 @@ lxml>=5.2.2
 scikit-learn>=1.5.1
 numpy>=1.26.4
 scipy>=1.13.1
+pandas>=2.8.2
+aiosqlite
+openai
+dotenv
+gspread
+aiohttp
+aiogram
